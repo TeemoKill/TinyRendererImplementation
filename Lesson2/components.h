@@ -12,4 +12,5 @@ const TGAColor blue    = TGAColor(0,   0,   255, 255);
 const TGAColor violet  = TGAColor(255, 0,   255, 255);
 
 void line(Vec2i, Vec2i, TGAImage&, TGAColor);
+void triangle(Vec2i *pts, TGAImage &image, TGAColor color);
 void triangle(Vec2i, Vec2i, Vec2i, TGAImage&, TGAColor);
